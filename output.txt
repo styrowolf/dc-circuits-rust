@@ -1,0 +1,159 @@
+Circuit {
+    elements: [
+        ParallelConnection {
+            circuits: [
+                Circuit {
+                    elements: [
+                        Resistor {
+                            incoming_voltage: Some(
+                                6.0,
+                            ),
+                            current: Some(
+                                1.0,
+                            ),
+                            resistance: 6.0,
+                        },
+                        IdealAmmeter {
+                            incoming_voltage: Some(
+                                0.0,
+                            ),
+                            current: Some(
+                                1.0,
+                            ),
+                            resistance: 0.0,
+                        },
+                        Resistor {
+                            incoming_voltage: Some(
+                                2.0,
+                            ),
+                            current: Some(
+                                1.0,
+                            ),
+                            resistance: 2.0,
+                        },
+                    ],
+                    incoming_voltage: Some(
+                        8.0,
+                    ),
+                    resistance: Some(
+                        8.0,
+                    ),
+                    current: Some(
+                        1.0,
+                    ),
+                },
+                Circuit {
+                    elements: [
+                        Resistor {
+                            incoming_voltage: Some(
+                                8.0,
+                            ),
+                            current: Some(
+                                4.0,
+                            ),
+                            resistance: 2.0,
+                        },
+                        IdealAmmeter {
+                            incoming_voltage: Some(
+                                0.0,
+                            ),
+                            current: Some(
+                                4.0,
+                            ),
+                            resistance: 0.0,
+                        },
+                    ],
+                    incoming_voltage: Some(
+                        8.0,
+                    ),
+                    resistance: Some(
+                        2.0,
+                    ),
+                    current: Some(
+                        4.0,
+                    ),
+                },
+                Circuit {
+                    elements: [
+                        Resistor {
+                            incoming_voltage: Some(
+                                8.0,
+                            ),
+                            current: Some(
+                                2.0,
+                            ),
+                            resistance: 4.0,
+                        },
+                        IdealAmmeter {
+                            incoming_voltage: Some(
+                                0.0,
+                            ),
+                            current: Some(
+                                2.0,
+                            ),
+                            resistance: 0.0,
+                        },
+                    ],
+                    incoming_voltage: Some(
+                        8.0,
+                    ),
+                    resistance: Some(
+                        4.0,
+                    ),
+                    current: Some(
+                        2.0,
+                    ),
+                },
+                Circuit {
+                    elements: [
+                        IdealVoltmeter {
+                            incoming_voltage: Some(
+                                8.0,
+                            ),
+                            current: Some(
+                                0.0,
+                            ),
+                            resistance: inf,
+                        },
+                    ],
+                    incoming_voltage: Some(
+                        8.0,
+                    ),
+                    resistance: Some(
+                        inf,
+                    ),
+                    current: Some(
+                        0.0,
+                    ),
+                },
+            ],
+            incoming_voltage: Some(
+                8.0,
+            ),
+            resistance: Some(
+                1.1428571428571428,
+            ),
+            current: Some(
+                7.0,
+            ),
+        },
+        Resistor {
+            incoming_voltage: Some(
+                14.0,
+            ),
+            current: Some(
+                7.0,
+            ),
+            resistance: 2.0,
+        },
+    ],
+    incoming_voltage: Some(
+        22.0,
+    ),
+    resistance: Some(
+        3.142857142857143,
+    ),
+    current: Some(
+        7.0,
+    ),
+}
